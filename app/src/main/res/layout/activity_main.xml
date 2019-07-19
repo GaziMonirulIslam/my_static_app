@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:onClick="storage"
+            android:textColor="#fff"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:text="Storage Capacity"
+            android:background="@drawable/main_card_bg"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            />
+
+        <Button
+            android:onClick="processor"
+            android:textColor="#fff"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:text="Processor Guide"
+            android:background="@drawable/main_card_bg"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            />
+
+        <Button
+            android:onClick="ram"
+            android:textColor="#fff"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:text="Ram Guide"
+            android:background="@drawable/main_card_bg"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            />
+
+        <Button
+            android:onClick="ports"
+            android:textColor="#fff"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:text="Ports Guide"
+            android:background="@drawable/main_card_bg"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+        <Button
+            android:onClick="platform"
+            android:textColor="#fff"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:text="Platform Guide"
+            android:background="@drawable/main_card_bg"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            />
+
+        <Button
+            android:onClick="display"
+            android:textColor="#fff"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:text="Display Guide"
+            android:background="@drawable/main_card_bg"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            />
+
+
+        <Button
+            android:onClick="screensize"
+            android:textColor="#fff"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:text="Screen Size Guide"
+            android:background="@drawable/main_card_bg"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            />
+
+
+        <Button
+            android:onClick="smartphoneprocessor"
+            android:textColor="#fff"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:text="Phone Processor guide"
+            android:background="@drawable/main_card_bg"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            />
+
+        <Button
+            android:onClick="smartphonedisplay"
+            android:textColor="#fff"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:text="Phone Display guide"
+            android:background="@drawable/main_card_bg"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            />
+
+        <Button
+            android:onClick="smartphonecamera"
+            android:textColor="#fff"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:text="Phone Camera guide"
+            android:background="@drawable/main_card_bg"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            />
+
+        <Button
+            android:onClick="smartphonebattery"
+            android:textColor="#fff"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:text="Phone Battery guide"
+            android:background="@drawable/main_card_bg"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            />
+
+        <Button
+            android:onClick="smartphoneram"
+            android:textColor="#fff"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:text="Phone Ram guide"
+            android:background="@drawable/main_card_bg"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            />
+
+        <Button
+            android:onClick="smartphonerom"
+            android:textColor="#fff"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:text="Phone Rom guide"
+            android:background="@drawable/main_card_bg"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            />
+
+        <Button
+            android:onClick="tvbasic"
+            android:textColor="#fff"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:text="Tv Basic"
+            android:background="@drawable/main_card_bg"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            />
+
+        <Button
+            android:onClick="tvdisplay"
+            android:textColor="#fff"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:text="Tv Display"
+            android:background="@drawable/main_card_bg"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            />
+
+
+
+        <Button
+            android:onClick="tvscreensize"
+            android:textColor="#fff"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:text="Tv Screen Size"
+            android:background="@drawable/main_card_bg"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            />
+
+        <Button
+            android:onClick="tvsmarttv"
+            android:textColor="#fff"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:text="Tv Smart"
+            android:background="@drawable/main_card_bg"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            />
+
+        <Button
+            android:onClick="tvsound"
+            android:textColor="#fff"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:text="Tv Sound"
+            android:background="@drawable/main_card_bg"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            />
+
+        <Button
+            android:onClick="tvconnectivity"
+            android:textColor="#fff"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:text="Tv Connectivity"
+            android:background="@drawable/main_card_bg"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>
